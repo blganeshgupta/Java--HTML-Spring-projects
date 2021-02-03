@@ -1,0 +1,117 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    body{
+            
+            background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTSH2lxnO7psslbVe1Sq7wn6hC7cVLcliPQDA&usqp=CAU');
+   background-size: cover;
+   }
+   #oner{
+                    border-style: opx;
+            margin-top:-9px;
+            margin-left:px;
+            height:100px;
+            width:100%;
+            
+    
+            background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSW-2frrCpnt6Yku7KjkJIet6GoESwxAq7sXg&usqp=CAU");
+        }
+        .oner{
+            border-style:0px ;
+            margin-top:-28px;
+            margin-right:25px;
+            height:50px;
+            width:400px;
+             font-size: 60px;
+            font-family: 'Bungee Inline', cursive;
+            float: right;
+            color:black; 
+        }
+   div{
+       font-size:20px;
+       border-style:0px;
+       height: 100%;
+       width: 100% ;
+       padding:20px;
+   }
+   h1{
+       font-size: 50px;
+   }
+   label{
+       font-size: 22px;
+       color:black;
+
+   }
+   input{
+       font-size:25px;
+   }
+   
+    </style>
+</head>
+<body>
+    <div id="oner"><span class="oner">QUICK BANK</span>
+        <button style="margin-top: 120px;margin-left:-20px ; font-size: 20px;background-color: skyblue;border: 0;" hrc="project_homepage.html" >home</button>
+    </div>
+    <span>
+<center><u><h1>SignUp</h1></u></center></span>
+    <div id="one">
+        <h2>Personal Details:</h2>
+        <strong>
+        <form action="projectlogin.html" onsubmit="return validation()" >    
+        <label for="" id="fn"> First Name :</label>
+        <input type="text" placeholder="eg: lakshmi Ganesh Guptha" id="infn">
+        <span id="fnmsg" style="color: red;font-size: 25px;" ></span><br><br>
+        <label for="">Last Name :</label>
+        <input type="text" placeholder=" eg:Bachu" id="inln"><span id="lnmsg" style="color: red; font-size: 25px;"></span>
+       <br><br> <label for="">Father's Name:</label>
+        <input type="text" placeholder="eg:B.Ramarao" id="infrn"><span id="frnmsg" style="color: red; font-size: 25px;"></span> </span><br><br>
+        <label for="">Mother's Name:</label>
+        <input type="text" placeholder="eg: B savithri" id="inmrn"><span id="mrnmsg" style="color: red; font-size: 25px;"></span>
+       <br><br> <label for="">Date Of Birth :</label>
+        <input type="date" id="indob"><span id="dobmsg" style="color: red; font-size: 25px;"></span><br><br> 
+        <label for="">Gender:</label>
+    <label for=""> Male</label>  <input type="radio" name="same" value="male" id="ml"><label for="">Female </label> <input type="radio" id="fml" name="same" value="female"> <label for="">others</label><input type="radio" value="others" id="ors">
+    <span id="gender" style="color: red;"></span><br><br>
+
+        <label for="">Enter Aadhar Number:</label>
+        <input type="text" placeholder="eg:654477457" id="adr"> <span id="adrmsg" style="color: red;"></span><br><br>
+        <label for="">Enter Pancard Number:</label>
+        <input type="text" placeholder="eg:TY5553HD3" id="inpan"><span id="panmsg" style="color:red;"></span><br><br>
+        <label for="">Mobile Number:</label>
+        <input type="text" placeholder="eg:784213552" id="mbl"><span id="mblmsg" style="color: red;"></span><br><br>
+        <label for="">Email Id:</label>
+        <input type="text" placeholder=" eg:quickbank@gmail.com" id="mail"><span id="mailmsg" style="color: red;"></span><br><br>
+        <label for="">Enter  Password:</label>
+        <input type="text" placeholder="ramarao1345" id="psd"><span id="psdmsg" style="color: red;"></span><br><br>
+        <label for=""><strong>Note:</strong>use this Mail Id and Password for LogIn to your account </label>
+>
+    <label for=""><h3>Other Details:</h3></label>
+    <label for="">Do you have any previous accounts in this bank:</label>
+   <label for=""> yes</label><input type="radio" name="same3" value="yes" style="font-size: 30px; " id="yes"><label for="">No</label>  <input type="radio" name="same3" style="font-size: 30px;" id="no" value="no">
+   <span id="got" style="color: red;"></span><br><br>   <label for="">Account Type:</label>
+    <select name="" id="" style="font-size: 30px;" >
+        <option value="">select</option>
+        <option value="Savings Account">Savings Account</option>
+        <option value="Current account:">Current account:</option>
+        <option value="Salary Account/Zero Account:">Salary Account/Zero Account:</option>
+    </select><br><br>
+    <label for="">Do you want Debit Card:</label> <input type="checkbox" style="font-size: 30px;"><br><br> 
+    <label for="">Do You want Check Book:</label> <input type="CheckBox" style="font-size: 30px;"> <br><br>
+    <label for="">Do you want Internet Banking Access:</label> <input type="CheckBox" style="font-size: 30px;"><br><br>
+   <label for=""> <strong> Note:</strong>I, hereby declare that all the information submitted by me in the application form is correct, true and valid</label>
+   <input type="checkBox" style="font-size: 30px;" id="last"> 
+   <span id="lstmsg" style="color: red;"></span></span><br><br>
+   <input type="submit" name="Next""> <button style="background-color: blueviolet;padding: 7px;height:30px; width: 70px;margin-left:15px;font-size: 18px; src: url(projectlogin.html);">back</button>
+</strong>
+
+</form>
+    </div>
+    <script src="projectsignupverifivation.js"></script>
+    <script src="projectsignupverifivation.js"></script>
+</body>
+</html>
